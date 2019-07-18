@@ -1,0 +1,17 @@
+{
+    "name": "konkretny/jwt",
+    "description": "A simple class to help you use JWT (JSON Web Token)",
+    "keywords": ["php","jwt","json web token"],
+    "homepage": "http://konkretny.pl",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marcin Romanowicz",
+            "homepage": "http://konkretny.pl",
+            "role": "Author"
+        }
+    ],
+    "require": {
+        "php": ">=5.0.0"
+    }
+}
