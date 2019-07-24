@@ -1,6 +1,6 @@
 <?php
 //generate JWT example
-require_once('JWT.php');
+require_once('../src/JWT.php');
 
 //example data
 $header=array(
@@ -16,7 +16,7 @@ $payload=array(
 $secret="your-256-bit-secret";
 
 //creating a class instance
-$ob = new Konkretny\Features\JWT();
+$ob = new Konkretny\JWT();
 
 //print your token
 echo $ob->genToken($header,$payload,$secret);

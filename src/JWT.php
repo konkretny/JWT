@@ -1,12 +1,12 @@
 <?php
 /*
-version 1.0.0
+version 1.0.1
 author: Marcin Romanowicz
 website: konkretny.pl
 license: MIT
 */
 
-namespace Konkretny\Features;
+namespace Konkretny;
 
 interface iJWT{
     public function genToken($header,$payload,$secret);
