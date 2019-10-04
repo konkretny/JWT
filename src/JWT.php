@@ -1,6 +1,6 @@
 <?php
 /*
-version 1.0.1
+version 1.0.2
 author: Marcin Romanowicz
 website: konkretny.pl
 license: MIT
@@ -75,7 +75,7 @@ class JWT implements iJWT{
             }
             return [
                 'header'=>$header_decode,
-                'pyload'=>$payloadr_decode,
+                'payload'=>$payloadr_decode,
                 'signature_verified'=>$signature_verified
             ];
            
